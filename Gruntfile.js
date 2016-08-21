@@ -9,6 +9,8 @@
 
 module.exports = function (grunt) {
 
+  // Load S3 plugin
+  grunt.loadNpmTasks('grunt-aws');
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
@@ -64,6 +66,23 @@ module.exports = function (grunt) {
           '.tmp/styles/{,*/}*.css',
           '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
+      }
+    },
+    s3: {
+      options: {
+        key: 'AKIAINWMD47VRPZUDZQA',
+        secret: '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',
+        bucket: 'alonsolarra',
+        access: 'public-read',
+        connections: 5
+      },
+      dist: {
+        files: [{
+          expand: true,
+          cwd: 'dist/',
+          src: '**/*.*',
+          dest: './'
+        }]
       }
     },
 
@@ -220,7 +239,7 @@ module.exports = function (grunt) {
             }
           }
       }
-    }, 
+    },
 
     // Renames files for browser caching purposes
     filerev: {
@@ -472,6 +491,25 @@ module.exports = function (grunt) {
     'filerev',
     'usemin',
     'htmlmin'
+  ]);
+
+  grunt.registerTask('deploy', [
+    'clean:dist',
+    'wiredep',
+    'useminPrepare',
+    'concurrent:dist',
+    'postcss',
+    'ngtemplates',
+    'concat',
+    'ngAnnotate',
+    'copy:dist',
+    'cdnify',
+    'cssmin',
+    'uglify',
+    'filerev',
+    'usemin',
+    'htmlmin',
+    's3'
   ]);
 
   grunt.registerTask('default', [

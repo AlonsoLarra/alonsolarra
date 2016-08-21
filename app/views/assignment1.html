@@ -1,0 +1,211 @@
+<h1>Assignment 1</h1>
+<h2>Answer the following questions:<br></h2>
+
+<br>
+<b>1. Read the following article http://martinfowler.com/articles/microservices.html
+and explain what "Microservices Architecture" means 20 points. <br><br></b>
+
+<i>"While there is no precise definition of this architectural style, there are certain common characteristics around organization around business capability,
+automated deployment, intelligence in the endpoints, and decentralized control of languages and data." (Martin Fowler)</i><br><br>
+
+Despite of not having a concrete definition, "Microservices Architecture" is a synonym for Decentralized Governance and Decentralized Data Management. Essentially,
+by using microservices you develop software applications as suites of independently deployable, small, modular services in which each service runs
+a unique process and communicates through a well-defined, lightweight mechanism to serve a business goal.
+
+<br><br>
+<b>2. Explain each line of the cc499-setup.sh file. 20 points.<br><br></b>
+
+Glossary:<br>
+<br>
+- Sudo: stands for either "Substitute user do" or "Super user do"; in Unix-like computer operating systems <i>Sudo</i>
+allows users to run programs with the security provilages of another user, by default the Super user or Root user.  <br>
+<br>
+- apt-get: Apt (for Advanced Package Tool) is a set of core tools inside Debian; basically it resolves dependency problems and retrieves
+the requested packages, it also works with dpkg (Debian package), another tool, which handles the actual installation and removal of packages (applications). <br>
+<br>
+-npm: is a Node.js package manager that comes bundled with the installation of Node.js. It keeps track of all dependencies for your Node.js projects and
+gives you full control over managing them.<br>
+<br>
+- pip: is a package management system used to install and manage software packages written in Python.
+
+
+<br><br>
+cd $HOME //Changing the directory to user root or "home" <br>
+mkdir Projects // Creating directory called "Projects"<br>
+mkdir .aws // Creating hidden directory called ".aws"<br>
+cd .aws // Changing the directory to the hidden directory ".aws"<br>
+touch credentials<br>
+cd .. // Returning one level into the directory <br>
+sudo apt-get update // Usually use to upgrade Debian distribution <br>
+sudo apt-get install -f // Attempt to correct broken dependencies. <br>
+<br>
+
+**************** Installing git  **************** "<br>
+sudo apt-get install git // Installing git with super user permissions through the advance package tool <br>
+<br>
+
+<i>echo " **************** Installing NodeJs **************** "<br>
+sudo apt-get install nodejs // Installing nodejs with super user permissions through the advance package tool <br>
+sudo apt-get install npm // Installing Node.js package manager with super user permissions through the advance package tool <br>
+sudo ln -s /usr/bin/nodejs/usr/bin/node // Creating a symlink (symbolic link) of the given file.<br>
+<br>
+<br>
+echo " **************** Installing AWS CLI **************** "<br>
+sudo apt-get -y install python-pip // Installing python pip with a forced "yes" and root user permissions <br>
+sudo pip install --upgrade pip // Upgrading python pip with root user permissions <br>
+sudo pip install awscli --ignore-installed six // Installing aws command line interface  <br>
+<br>
+<br>
+echo " **************** Installing yeoman **************** "<br>
+sudo npm install -g yo  // Installing Yeoman through Node.js package manager <br>
+<br>
+<br>
+echo " **************** Installing grunt **************** "<br>
+sudo npm install -g grunt-cli //Installing grunt command line interface  <br>
+<br>
+<br>
+echo " **************** Installing serverless **************** "<br>
+sudo npm install -g serverless // Installing grunt plugin to help develop AWS serverless solutions. <br>
+
+
+
+<br><br>
+<b>3. Create a grunt task to deploy your website to your own bucket in S3. 30 points.<br><br></b>
+
+  First I installed these plugins: (Terminal cmmd) <br><br>
+
+  <i>  npm i grunt-aws-s3 --save-dev</i><br>
+  <i>sudo npm install grunt-aws --save-dev</i><br><br>
+
+  Once the plugin was installed, I wrote inside my Gruntfile:<br><br>
+
+  <i>grunt.loadNpmTasks('grunt-aws');</i><br><br>
+
+  Then, I added some more lines to configure the task on the Gruntfile.js: <br>
+  The first, the task registration (I know that I started from the end but meeh!), the registration is basically the same as build's registration but I added "s3" at the end<br><br>
+
+  <i>
+
+    grunt.registerTask('deploy', [<br>
+    'clean:dist',<br>
+    'wiredep',<br>
+    'useminPrepare',<br>
+    'concurrent:dist',<br>
+    'postcss',<br>
+    'ngtemplates',<br>
+    'concat',<br>
+    'ngAnnotate',<br>
+    'copy:dist',<br>
+    'cdnify',v
+    'cssmin',<br>
+    'uglify',<br>
+    'filerev',<br>
+    'usemin',<br>
+    'htmlmin',<br>
+    's3'<br>
+    ]);<br>
+
+  </i><br>
+
+  finally I defined "s3" and thats it, I wrote "grunt deploy" from terminal and my app was deployed<br><br>
+
+  s3: {<br>
+  options: {<br>
+  key: 'myKey',<br>
+  secret: 'mySecretKey',<br>
+  bucket: 'alonsolarra',<br>
+  access: 'public-read',<br>
+  connections: 5<br>
+  },<br>
+  dist: {<br>
+  files: [{<br>
+  expand: true,<br>
+  cwd: 'dist/',<br>
+  src: '**/*.*',<br>
+  dest: './'<br>
+  }]v
+  }<br>
+  },
+
+
+
+  <br><br>
+<b>4. Explain how routes work in angular and a code example. 10 points.<br><br></b>
+
+If you want to navigate to different pages in your application, but you also want the application to be a SPA (Single Page Application),
+  with no page reloading, you can use the "ngRoute" module. Code Example:<br><br>
+
+  angular<br>
+  .module('frontpocketApp', [<br>
+  'ngAnimate',<br>
+  'ngCookies',<br>
+  'ngResource',<br>
+  <b>'ngRoute',<br></b>
+  'ngSanitize',<br>
+  'ngTouch'<br>
+  ])<br>
+  .config(function ($routeProvider) {<br>
+  $routeProvider<br>
+  .when('/', {<br>
+  templateUrl: 'views/main.html',<br>
+  controller: 'MainCtrl',<br>
+  controllerAs: 'main'<br>
+  })<br>
+  .when('/about', {<br>
+  templateUrl: 'views/about.html',<br>
+  controller: 'AboutCtrl',<br>
+  controllerAs: 'about'<br>
+  })<br>
+  .when('/tareas', {<br>
+  templateUrl: 'views/tareas.html',<br>
+  controller: 'TareasCtrl',<br>
+  controllerAs: 'tareas'<br>
+  })<br>
+  .when('/Assignment1', {<br>
+  templateUrl: 'views/assignment1.html',<br>
+  controller: 'Assignment1Ctrl',<br>
+  controllerAs: 'Assignment1'<br>
+  })<br>
+  .otherwise({<br>
+  redirectTo: '/'<br>
+  });<br>
+  });<br><br>
+
+  What this would do internally is that the Browser will load all the information in just one
+  request and as you navigate through the webpage it will change the already loaded information.
+  For example: There is a container that is holding the displayed view, once you request another view,
+  it all remains basically the same but the view without the user noticing that there was not any call
+  to the server.
+
+
+<br><br>
+<b>5. Explain how you can have more than one access key in your computer and how to
+use each one. Provide code or configuration examples. 10 points.</b><br><br>
+
+The following example shows a credentials file with two profiles:<br><br>
+
+<i>[default]<br>
+aws_access_key_id=AKIAIOSFODNN7EXAMPLE<br>
+aws_secret_access_key=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY<br></i>
+
+[user2]<br>
+aws_access_key_id=AKIAI44QH8DHBEXAMPLE<br>
+aws_secret_access_key=je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY<br><br><i/>
+
+As you may notice, the difference relies on the [tag].<br>
+  Here is an example of how you can use your multiple profiles by adding "--profile" and the profile [tag] you want to use:<br><br>
+
+  <i>$ aws ec2 describe-instances --profile user2<br></i><br>
+
+  If you are going to use a named profile for multiple commands, you can avoid specifying the profile in every command by setting the AWS_DEFAULT_PROFILE environment variable at the command line:
+  <br><br>
+  <i>export AWS_DEFAULT_PROFILE=user2</i>
+  <br><br>
+  source: Amazon Documentation<br>
+  http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
+
+<br><br>
+<b>6. Explain what are you going to do different this semester based on last semester
+experience. 10 points.</b>
+Last semester I did not give my 100% I barely give my 60-70%, this semester I am planning to give my 110% by giving more time to my homework and extra-class learning.
+<br><br>
