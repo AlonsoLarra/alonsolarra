@@ -70,11 +70,8 @@ module.exports = function (grunt) {
     },
     s3: {
       options: {
-        key: 'AKIAINWMD47VRPZUDZQA',
-        secret: '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',
         bucket: 'alonsolarra',
-        access: 'public-read',
-        connections: 5
+        access: 'public-read'
       },
       dist: {
         files: [{

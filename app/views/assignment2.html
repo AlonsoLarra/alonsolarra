@@ -1,0 +1,268 @@
+<h1>Assignment 2</h1>
+<h2>Answer the following questions:<br></h2>
+
+<br>
+<b>1. Automate the deployment of your web site using Grunt. 15 points.<br><br></b>
+
+First I installed these plugins: (Terminal cmmd) <br><br>
+
+<code>  npm i grunt-aws-s3 --save-dev</code><br>
+<code>sudo npm install grunt-aws --save-dev</code><br><br>
+
+Once the plugin was installed, I wrote inside the Gruntfile, within the module.exports funtion and out of the grunt.initConfig:<br><br>
+
+<code>grunt.loadNpmTasks('grunt-aws');</code><br><br>
+
+Then, I added some more lines to configure the task on the Gruntfile.js inside the grunt.initConfig section: <br>
+The first, the task registration (I know that I started from the end but meeh!), the registration is basically the same as build's registration but I added "s3" at the end<br><br>
+
+<code>
+
+  grunt.registerTask('deploy', [<br>
+  'clean:dist',<br>
+  'wiredep',<br>
+  'useminPrepare',<br>
+  'concurrent:dist',<br>
+  'postcss',<br>
+  'ngtemplates',<br>
+  'concat',<br>
+  'ngAnnotate',<br>
+  'copy:dist',<br>
+  'cdnify',v
+  'cssmin',<br>
+  'uglify',<br>
+  'filerev',<br>
+  'usemin',<br>
+  'htmlmin',<br>
+  's3'<br>
+  ]);<br>
+
+</code><br>
+
+finally, outside the grunt.initConfig (agaain) at the bottom of the file, I defined "s3" and thats it, I wrote "grunt deploy" from terminal and my app was deployed<br><br>
+
+<code>
+s3: {<br>
+options: {<br>
+bucket: 'alonsolarra',<br>
+access: 'public-read',<br>
+},<br>
+dist: {<br>
+files: [{<br>
+expand: true,<br>
+cwd: 'dist/',<br>
+src: '**/*.*',<br>
+dest: './'<br>
+}]v
+}<br>
+},
+</code>
+
+
+<br><br>
+<b>2. Create a Hello World in NodeJs and create a tutorial about it. 15 points.<br><br></b>
+
+Installing Node.js and NPM is pretty straightforward using Homebrew. Homebrew is a package manager for Mac, it makes installing most open source sofware (like Node) very simple.<br>
+<br>
+First step is to open your terminal and install Homebrew with the following command:<br><br>
+
+<code>
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"<br>
+</code>
+<br>
+Then you need to install Node.
+<br><br>
+<code>
+  brew install node<br>
+</code>
+<br>
+
+
+
+Once you have install the node packages, you have to create a javascript file on the same directory of the
+installed packages, the javascrip file must contain the required code for the "Hello World"; I named my .js file "Hello.js" and here is the code:
+<br><br>
+
+<h5>Hello.js</h5>
+<code>
+  var greetings = require("./ExportModule.js");<br>
+  <br>
+  console.log(greetings.sayHello());<br>
+  <br>
+  console.log(greetings.diHola());<br><br>
+</code>
+
+<h5>ExportModule.js</h5>
+<code>
+  var exports = module.exports = {<br>
+  sayHello: function() {<br>
+  return "HELLO WORLD";<br>
+  },<br>
+  diHola: function() {<br>
+  return "Hola mundo";<br>
+  }<br>
+  };<br><br>
+
+</code>
+
+After saving the file, on my Terminal, I positioned the directory on the folder that contain my .js file and wrote: <br><br>
+
+<code>
+  node hello.js
+</code>
+
+<br><br>
+
+And that was it, it appears the messages saying <i>'Hello World' and 'Hola Mundo'</i>.
+
+  <br><br>
+  <b>3. Install the aws sdk for nodejs and create a tutorial about it. 15 points.<br><br></b>
+
+Basically what I did is that I opened my terminal and I tried to install the sdk by executing: <br><br>
+
+<code>
+  npm install aws-sdk<br><br>
+</code>
+
+It failed the installation so I kept looking and then I found another command:<br><br>
+
+<code>
+  bower install aws-sdk-js<br>
+</code>
+
+<br>
+And it Worked!.
+
+
+
+<br><br>
+  <b>4. Create a code in NodeJs that will tell you the version/date of your website in S3. 15points.<br><br></b>
+
+<code>
+  /*** Created by alonsolarra on 8/27/16.*/ <br>
+  var AWS = require('aws-sdk');<br><br>
+  AWS.config.region = 'us-east-1';<br><br>
+  var s3 = new AWS.S3();<br><br>
+  s3.listBuckets(function(err, data) {<br><br>
+  if (err) { console.log("Error:", err); }<br><br>
+  else {<br><br>
+  for (var index in data.Buckets) {<br><br>
+  var bucket = data.Buckets[index];<br><br>
+  if(bucket.Name=='alonsolarra')<br><br>
+  console.log("Bucket: ", bucket.Name, ' : ', bucket.CreationDate);<br><br>
+  }<br>
+  }<br>
+  });<br>
+
+
+</code>
+
+
+
+<br><br>
+  <b>5.Read and explain the post about Microservices Trade-Offs by Martin Fowler
+    (http://martinfowler.com/articles/microservice-trade-offs.html). 15 points.</b><br><br>
+
+<i>"Monoliths and microservices are not a simple binary choice. Both are fuzzy definitions that mean many systems would lie in a blurred boundary area."<br><br></i>
+Martin Fowler speaks about some of the advantages of using a microservices architecture like "Independent Deployment" and "Technology Diversity" but also (and mainly) about how this architecture is not always a recipe for success;
+it has its drawbacks! like the difficulty of maintaining consistency within a distributed system, the need of a mature operations team to manage the variety of the system's services
+and the complexity of programming distributedly due to the slowness of remote calls and its risk of failure. <br><br>
+
+
+
+  <b>6. Create a comparison table between AWS, Azure and Google Cloud. 15 points.</b><br><br>
+
+  <table align="center" class="table" style="border-bottom:groove">
+    <tr>
+      <th>
+        Vendors
+      </th>
+      <th>
+        Pricing
+      </th>
+      <th>
+        Compute
+      </th>
+      <th>
+        Database
+      </th>
+      <th>
+        Number of OS supported
+      </th>
+      <th>
+        Temporary Storage Limits
+      </th>
+      <th>
+        Custom instance creation feature
+      </th>
+    </tr>
+    <tr>
+      <td>Google</td>
+      <td>&#x2713;</td>
+      <td>&#x2717</td>
+      <td>&#x2717</td>
+      <td>9-&#x2717</td>
+      <td>3 TB-&#x2717</td>
+      <td>YES-&#x2713;</td></tr>
+    <tr>
+      <td>AWS</td>
+      <td>&#x2717</td>
+      <td>&#x2713;</td>
+      <td>&#x2717</td>
+      <td>11-&#x2713;</td>
+      <td>Up to 48 TB (Multiple Disks)-&#x2713;</td>
+      <td>NO-&#x2717</td>
+    </tr>
+    <tr>
+      <td>Azure</td>
+      <td>&#x2717</td>
+      <td>&#x2717</td>
+      <td>&#x2713;</td>
+      <td>9-&#x2717</td>
+      <td>2 TB-&#x2717</td>
+      <td>NO-&#x2717</td>
+    </tr>
+
+  </table>
+
+<h4>Pricing</h4>
+Google automatically gives you the best price with its Sustained Use Discounts (SUD). The Google SUD discounts the on-demand prices based on how long you use a specific instance type or specific number of CPUs and RAM. If you only use an instance for 25 percent of the billing period, you'll get on-demand pricing. As you use it 50, 75, or 100 percent of the billing period, you’ll get successively higher discounts. With Google, you don’t need to pre-purchase or make decisions because these discounts are applied to your bill so that you automatically get the best price.
+<a href="http://www.rightscale.com/blog/cloud-management-best-practices/how-compare-aws-vs-azure-vs-google-vs-softlayer"> Source</a><br><br>
+
+<h4>Compute</h4>
+Amazon has some impressive high end kit; AWS lets you choose from a range of 40 virtual server instance sizes from low cost ‘nano’ instances to high end memory, storage or GPU optimised products, offering up to 128 ‘vCPU’s and 2TB of memory.
+Also it offers persistent disk options through Elastic Block Store and comes with a variety of SSD and HDD flavours.
+<a href="https://blogs.endjin.com/2016/07/aws-vs-azure-vs-google-cloud-platform-compute/"> Source</a><br><br>
+
+<h4>Database</h4>
+With more workloads moving to the cloud the need for NoSQL databases will become ever more important, and again all providers have a good range of options to satisfy most performance/cost requirements. Of all the NoSQL products on offer it’s hard not to be impressed by DocumentDB; once again Microsoft is showing the rest how PaaS should be done. Azure also has the best out-of-the-box support for cross-region geo-replication across its database offerings, without saying that
+Azure SQL Database is probably the most advanced managed relational database available today.
+<a href="https://blogs.endjin.com/2016/08/aws-vs-azure-vs-google-cloud-platform-database/"> Source</a><br><br>
+
+<h4>Conclusion</h4>
+From my perspective, this table never has the intention of deciding whom is the better cloud provider, each cloud vendor has unique features and appealing offers with pros and cons that you have to take into consideration when your choice.
+
+
+  <br><br>
+<b>7. Read at least 5 sections of Seth Godin’s Manifesto: “Stop Stealing Dreams” and tell
+  me what you think about it. 10 points.</b><br><br>
+
+I wont say that a read all manifestos, I read a few to get the idea, I skip-read some more, but the no.43 "How not to teach someone to be a baseball fan" really catch me. <br><br>
+<i>"The industrialized, scalable, testable solution is almost never the best way to generate exceptional learning...there are plenty of kids (and adults) who know far more about baseball than anyone could imagine knowing. And none of them learned it this way."
+<br><br></i>
+
+Lo escribiré en español porque no podia expresarme como queria en ingles...<br><br>
+
+Quiero mencionar que no dejo abierta la posibilidad de que yo esté en un completo error y que por mentes como la mia no hay un cambio verdadero en la sociedad...
+
+Me es dificil el concretar una opinion respecto a este tema, por un lado siento que las ideas que se tratan de comunicar en el manifesto son verdad y
+me siento llamado a la accion por el sentimiento de revolucion del texto. Por otro lado siento que muchos de los ideales son un tanto utópicos y es ahi donde mi opinion vuelve a dividirse;
+no se si es que los considero utopicos por mi persepcion de la realidad (una realidad de 21 años de antiguedad) que no conoce algo diferente a lo que esta viviendo o
+a los conceptos de escuela y educacion establecidos contrarios a los que propone el autor.<br><br>
+
+No quiero malcomunicar mi idea, no estoy conforme con lo que es la educacion definida por el actual sistema pero algo dentro de mi piensa que no puede ser diferente
+al menos no de una manera generalizada. Para mi esto es como el capitalismo, no es bueno, beneficia a unos cuantos, estariamos mejor con un sistema financiero mas equitativo,
+el problema es que se me hace utopico pensar en que podriamos vivir diferente.<br><br>
+
+
+<br><br>
