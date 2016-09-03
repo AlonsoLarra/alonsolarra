@@ -8,6 +8,56 @@
 
 <code>
 
+  /**
+  * Created by alonsolarra on 9/3/16.
+  */<br>
+  var Helper = require("./S3Helper");<br>
+  var AWS = require("aws-sdk");<br>
+  var s3 = new AWS.S3();<br>
+  var fs = require('fs'),<br>
+  request = require('request');<br>
+  var urlParams = {Bucket: 'alonsolarra', Key: 'sorry_ladies_i_m_in_the_night_s_watch_by_thafartfactory-d6lh6h2.jpg'};<br>
+  <br>
+  <br>
+  s3.getSignedUrl('getObject', urlParams, function(err, url){<br>
+  var download = function(uri, filename, callback){<br>
+  request.head(uri, function(err, res, body){<br>
+  request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);<br>
+  });<br>
+  };<br>
+  <br>
+  Helper.readFromS3(urlParams.Bucket,urlParams.Key,function (error,data) {<br>
+  if(error){<br>
+  console.log(error);<br>
+  }<br>
+  else{<br>
+  if(data.Metadata.move){<br>
+  var params = {<br>
+  Bucket:'cc116-assignment3/18162',<br>
+  Key: 'image.jpg',<br>
+  Body: data.Body,<br>
+  ACL:'public-read'<br>
+  };<br>
+  s3.putObject(params, function(err, data){<br>
+  if (err)<br>
+  { console.log(err);<br>
+  } else {<br>
+  console.log('succesfully uploaded the image!');<br>
+  }<br>
+  });<br>
+  //console.log(data.Body);<br>
+  <br>
+  }<br>
+  }<br>
+  });<br>
+
+  download(url, 'image.jpg', function(){<br>
+  console.log('done');<br>
+  });<br>
+  <br>
+  });<br>
+
+
 
 </code>
 
@@ -42,7 +92,7 @@
 
 <br><br>
 
-<a href="https://github.com/AlonsoLarra/alonsolarra/blob/master/ExportModule.js"> My Script </a>
+<a href="https://github.com/AlonsoLarra/alonsolarra/blob/master/APOD.js"> My Script </a>
 <br><br>
 <b>3. Implement Google Analytics in your personal web site. 20 points.<br><br></b>
 <a href="https://s3.amazonaws.com/alonsolarra/images/Screen+Shot+2016-09-01+at+9.36.38+PM.png" target="_top">Google Analytics Console</a>
@@ -51,8 +101,6 @@
 <b>4. Read and explain the following article by Martin Fowler: http://martinfowler.com/ articles/richardsonMaturityModel.html. 20 points<br><br></b>
 
 
-<br><br>
-<a href="https://github.com/AlonsoLarra/alonsolarra/blob/master/Buckets.js"> My Script</a>
 <br><br>
 <b>5. Explain why cloud computing is important. 10 points.<br><br></b>
 
