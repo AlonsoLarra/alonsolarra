@@ -10,8 +10,9 @@ s3.listBuckets(function(err, data) {
   else {
     for (var index in data.Buckets) {
       var bucket = data.Buckets[index];
-      if(bucket.Name=='alonsolarra')
-      console.log("Bucket: ", bucket.Name, ' : ', bucket.CreationDate);
+      if(bucket.Name=='alonsolarra'){
+        console.log("Bucket: ", bucket.Name, ' : ', bucket.CreationDate);
+      }
     }
   }
 });

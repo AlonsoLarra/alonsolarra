@@ -1,1 +1,74 @@
 
+<h1>Assignment 3</h1>
+<h2>Answer the following questions:<br></h2>
+
+<br>
+<b>1. Create a NodeJS script that will do the following: Download and Image from S3. Check if the metadata
+  key “Move” of the image is true. If true, upload the image to s3://cc116-assignment3/{MATRICULA} /image.png. 20 points.<br><br></b>
+
+<code>
+
+
+</code>
+
+
+<br><br>
+<a href="https://github.com/AlonsoLarra/alonsolarra/blob/master/Gruntfile.js"> My Script </a>
+<br><br>
+
+<b>2. Create a NodeJS script that will do the following: Will get the Nasa Astronomic Picture of the day. Save the image in the local file system.
+  Print the title of the image. 20 points.<br><br></b>
+
+<code>
+  var fs = require('fs'),<br>
+  request = require('request');<br>
+  <br>
+  request('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY', function (error, response, body) {<br>
+  if (!error && response.statusCode == 200) {<br>
+  var md = JSON.parse(body);<br>
+  console.log(md.title)<br>
+  var download = function(uri, filename, callback){<br>
+  request.head(uri, function(err, res, body){<br>
+  request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);<br>
+  });<br>
+  };<br>
+  download(md.url, 'APOD.jpg', function(){<br>
+  console.log('done');<br>
+  });<br>
+  }<br>
+  });<br>
+</code>
+
+
+<br><br>
+
+<a href="https://github.com/AlonsoLarra/alonsolarra/blob/master/ExportModule.js"> My Script </a>
+<br><br>
+<b>3. Implement Google Analytics in your personal web site. 20 points.<br><br></b>
+<a href="https://s3.amazonaws.com/alonsolarra/images/Screen+Shot+2016-09-01+at+9.36.38+PM.png" target="_top">Google Analytics Console</a>
+
+<br><br>
+<b>4. Read and explain the following article by Martin Fowler: http://martinfowler.com/ articles/richardsonMaturityModel.html. 20 points<br><br></b>
+
+
+<br><br>
+<a href="https://github.com/AlonsoLarra/alonsolarra/blob/master/Buckets.js"> My Script</a>
+<br><br>
+<b>5. Explain why cloud computing is important. 10 points.<br><br></b>
+
+I think that Cloud Computing is important because now more than ever in human history we are technologically capable to store millions and billions of data,
+which has opened a new way to solve problems. The main conflict is that the stored data is just that! data.
+What Cloud Computing does is enabling us to transform those tons of data into information and consequently into knowledge which help us to solve problems in a way
+we could not have done before.
+
+<br><br>
+<b>6. Explain what would like to change in this class and why. 10 points.<br><br></b>
+
+Personally, I struggle when we have wrote code together in class, I do not consider myself as a Multitasker so it is very difficult to me copy the code that the professor is writing,
+understand what are we really doing (I feel like I am just writing and not really learning) and paying close attention when a concept is defined because im worried about not to stay behind in what we are coding.
+
+I would recommend to separate these two parts, first we concentrate in the teacher's display and explanations and then we code.
+
+<br><br>
+
+
