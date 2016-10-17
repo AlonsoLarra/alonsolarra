@@ -49,6 +49,31 @@ angular
         controller: 'Assignment3Ctrl',
         controllerAs: 'Assignment3'
       })
+      .when('/Assignment5', {
+        templateUrl: 'views/assignment5.html',
+        controller: 'Assignment5Ctrl',
+        controllerAs: 'Assignment5'
+      })
+      .when('/Assignments', {
+        templateUrl: 'views/assignments.html',
+        controller: 'AssignmentsCtrl',
+        controllerAs: 'Assignments'
+      })
+      .when('/WeatherApp', {
+        templateUrl: 'views/weatherapp.html',
+        controller: 'WeatherappCtrl',
+        controllerAs: 'WeatherApp'
+      })
+      .when('/Assignment6', {
+        templateUrl: 'views/assignment6.html',
+        controller: 'Assignment6Ctrl',
+        controllerAs: 'Assignment6'
+      })
+      .when('/weatherSecure', {
+        templateUrl: 'views/weathersecure.html',
+        controller: 'WeathersecureCtrl',
+        controllerAs: 'weatherSecure'
+      })
       .otherwise({
         redirectTo: '/'
       });
