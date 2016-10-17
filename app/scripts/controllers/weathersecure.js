@@ -28,10 +28,11 @@ angular.module('frontpocketApp')
         headers: {'Authorization': token}
       })
         .success(function (data) {
+          alert("You are Worth it!!");
           $scope.result = data;
         })
         .error(function (error) {
-          alert("You are not Worth it bitch!!");
+          alert("You are NOT Worth it!!");
           $scope.result = error;
         });
     };
