@@ -80,4 +80,115 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+  /*Custom*/
+  /* Style The Dropdown Button */
+  .dropbtn {
+    background-color: transparent;
+    color: #4CAF50;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: transparent;
+  }
+  html, body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* define a fixed width for the entire menu */
+  .navigation {
+    width: 300px;
+  }
+
+  /* reset our lists to remove bullet points and padding */
+  .mainmenu, .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* make ALL links (main and submenu) have padding and background color */
+  .mainmenu a {
+    display: block;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+  }
+
+  /* add hover behaviour */
+  .mainmenu a:hover {
+    background-color: #f1f1f1;
+  }
+
+
+  /* when hovering over a .mainmenu item,
+    display the submenu inside it.
+    we're changing the submenu's max-height from 0 to 200px;
+  */
+
+  .mainmenu li:hover .submenu {
+    display: block;
+    max-height: 300px;
+  }
+
+  /*
+    we now overwrite the background-color for .submenu links only.
+    CSS reads down the page, so code at the bottom will overwrite the code at the top.
+  */
+
+  .submenu a {
+    color: #777;
+    background-color: #f9f9f9;
+  }
+
+  /* hover behaviour for links inside .submenu */
+  .submenu a:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* this is the initial state of all submenus.
+    we set it to max-height: 0, and hide the overflowed content.
+  */
+  .submenu {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: all 1s ease-out;
+  }
 }
