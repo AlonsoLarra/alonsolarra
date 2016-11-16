@@ -29,51 +29,6 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
-      .when('/tareas', {
-        templateUrl: 'views/tareas.html',
-        controller: 'TareasCtrl',
-        controllerAs: 'tareas'
-      })
-      .when('/Assignment1', {
-        templateUrl: 'views/assignment1.html',
-        controller: 'Assignment1Ctrl',
-        controllerAs: 'Assignment1'
-      })
-      .when('/Assignment2', {
-        templateUrl: 'views/assignment2.html',
-        controller: 'Assignment2Ctrl',
-        controllerAs: 'Assignment2'
-      })
-      .when('/Assignment3', {
-        templateUrl: 'views/assignment3.html',
-        controller: 'Assignment3Ctrl',
-        controllerAs: 'Assignment3'
-      })
-      .when('/Assignment5', {
-        templateUrl: 'views/assignment5.html',
-        controller: 'Assignment5Ctrl',
-        controllerAs: 'Assignment5'
-      })
-      .when('/Assignments', {
-        templateUrl: 'views/assignments.html',
-        controller: 'AssignmentsCtrl',
-        controllerAs: 'Assignments'
-      })
-      .when('/WeatherApp', {
-        templateUrl: 'views/weatherapp.html',
-        controller: 'WeatherappCtrl',
-        controllerAs: 'WeatherApp'
-      })
-      .when('/Assignment6', {
-        templateUrl: 'views/assignment6.html',
-        controller: 'Assignment6Ctrl',
-        controllerAs: 'Assignment6'
-      })
-      .when('/weatherSecure', {
-        templateUrl: 'views/weathersecure.html',
-        controller: 'WeathersecureCtrl',
-        controllerAs: 'weatherSecure'
-      })
       .otherwise({
         redirectTo: '/'
       });
