@@ -54,6 +54,11 @@ angular
         controller: 'FechasrelativasCtrl',
         controllerAs: 'fechasrelativas'
       })
+      .when('/huellahidrica', {
+        templateUrl: 'views/huellahidrica.html',
+        controller: 'HuellahidricaCtrl',
+        controllerAs: 'huellahidrica'
+      })
       .otherwise({
         redirectTo: '/'
       });
