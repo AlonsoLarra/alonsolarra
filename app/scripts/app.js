@@ -25,9 +25,34 @@ angular
         controllerAs: 'main'
       })
       .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+      templateUrl: 'views/about.html',
+      controller: 'AboutCtrl',
+      controllerAs: 'about'
+    })
+      .when('/casosContaminacion', {
+        templateUrl: 'views/casoscontaminacion.html',
+        controller: 'CasoscontaminacionCtrl',
+        controllerAs: 'casosContaminacion'
+      })
+      .when('/casosContaminacion', {
+        templateUrl: 'views/casoscontaminacion.html',
+        controller: 'CasoscontaminacionCtrl',
+        controllerAs: 'casosContaminacion'
+      })
+      .when('/CaracteristicasGeograficas', {
+        templateUrl: 'views/caracteristicasgeograficas.html',
+        controller: 'CaracteristicasgeograficasCtrl',
+        controllerAs: 'CaracteristicasGeograficas'
+      })
+      .when('/ongs', {
+        templateUrl: 'views/ongs.html',
+        controller: 'OngsCtrl',
+        controllerAs: 'ongs'
+      })
+      .when('/fechasrelativas', {
+        templateUrl: 'views/fechasrelativas.html',
+        controller: 'FechasrelativasCtrl',
+        controllerAs: 'fechasrelativas'
       })
       .otherwise({
         redirectTo: '/'
