@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfc2f605-9b43-482b-9c0d-a45c250230d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/weathersecure.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/weathersecure.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/Logo_UNESCO.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/SH-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/SH_png-04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/SH_png-05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/image001.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/index.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/etica_unesco.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/index1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/posturas.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/refes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/casoscontaminacion.html" afterPath="$PROJECT_DIR$/app/views/casoscontaminacion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="$PROJECT_DIR$/app/views/main.html" />
     </list>
     <ignored path="alonsolarra.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,61 +39,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+            <state relative-caret-position="420">
+              <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="180" column="25" selection-start-line="180" selection-start-column="24" selection-end-line="180" selection-end-column="25" />
+            <state relative-caret-position="60">
+              <caret line="4" column="95" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="accionesconcretas.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/accionesconcretas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weathersecure.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/weathersecure.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weathersecure.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/weathersecure.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state relative-caret-position="165">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -101,13 +85,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/views/about.html" />
         <option value="$PROJECT_DIR$/app/views/assignment1.html" />
         <option value="$PROJECT_DIR$/app/styles/main.css" />
         <option value="$PROJECT_DIR$/ExportModule.js" />
         <option value="$PROJECT_DIR$/hello.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/views/assignment2.html" />
         <option value="$PROJECT_DIR$/Buckets.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/assignment3.js" />
@@ -125,9 +107,28 @@
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/views/weathersecure.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/assignment6.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/weathersecure.js" />
+        <option value="$PROJECT_DIR$/app/views/caracteristicasgeograficas.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$USER_HOME$/Desktop/SerHumanoApp/HuellaHidricayCarbono/HuellaHidrica.html" />
+        <option value="$PROJECT_DIR$/app/views/huellahidrica.html" />
+        <option value="$USER_HOME$/Downloads/UsoRecursosNaturales.txt" />
+        <option value="$PROJECT_DIR$/app/images/UsoRecursosNaturales.txt" />
+        <option value="$USER_HOME$/Downloads/UsoRecursosNaturales.html" />
+        <option value="$PROJECT_DIR$/app/views/usorecursos.html" />
+        <option value="$PROJECT_DIR$/app/views/bloom_gonzalez_medio_ambiente/estero-punta-banda-Ensenada.html" />
+        <option value="$PROJECT_DIR$/app/views/estero-punta-banda-Ensenada.html" />
+        <option value="$PROJECT_DIR$/app/views/esteropuntabanda.html" />
+        <option value="$PROJECT_DIR$/app/views/accionesconcretas.html" />
+        <option value="$PROJECT_DIR$/app/views/cambioclimatico.html" />
+        <option value="$PROJECT_DIR$/app/views/agenda21.html" />
+        <option value="$PROJECT_DIR$/app/views/efectoinvernadero.html" />
+        <option value="$PROJECT_DIR$/app/views/legam.html" />
+        <option value="$PROJECT_DIR$/app/views/etica.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/views/casoscontaminacion.html" />
+        <option value="$PROJECT_DIR$/app/views/main.html" />
       </list>
     </option>
   </component>
@@ -143,9 +144,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="795" />
+    <option name="x" value="71" />
+    <option name="y" value="24" />
+    <option name="width" value="1558" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -192,34 +194,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bucket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bucket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bucket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bucket" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -234,6 +208,13 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js-jscs-package" value="$PROJECT_DIR$/node_modules/jscs" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/images" />
+      <recent name="$PROJECT_DIR$/app/views" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.readImage.js">
     <configuration default="false" name="hello.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="hello.js" working-dir="$PROJECT_DIR$">
@@ -374,33 +355,36 @@
       <workItem from="1476688243936" duration="85000" />
       <workItem from="1476688667242" duration="1154000" />
       <workItem from="1476746249574" duration="56000" />
+      <workItem from="1480558240638" duration="946000" />
+      <workItem from="1480575903407" duration="1418000" />
+      <workItem from="1480665018974" duration="6840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85554000" />
+    <option name="totallyTimeSpent" value="94758000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="795" extended-state="6" />
-    <editor active="true" />
+    <frame x="71" y="24" width="1558" height="791" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16736111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30680358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32825485" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -440,312 +424,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/assignment1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/assignment1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buckets.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExportModule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/assignment2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3525">
-          <caret line="258" column="56" selection-start-line="258" selection-start-column="56" selection-end-line="258" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/assignment3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APOD.jpg" />
-    <entry file="file://$PROJECT_DIR$/image.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readImage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/APOD.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="93" selection-start-line="7" selection-start-column="93" selection-end-line="7" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/S3Helper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/tareas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/assignment2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/about.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/assignment1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/assignment1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/assignment3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/assignment5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tareas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/assignments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/assignments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/assignment5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/assignment6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="39" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="71" column="27" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/weatherapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/weatherapp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.tmp/concat/scripts/vendor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.tmp/templateCache.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/assignment1.js" />
+    <entry file="file://$PROJECT_DIR$/app/views/assignment1.html" />
+    <entry file="file://$PROJECT_DIR$/app/views/assignment3.html" />
+    <entry file="file://$PROJECT_DIR$/app/views/assignment5.html" />
+    <entry file="file://$PROJECT_DIR$/app/views/tareas.html" />
+    <entry file="file://$PROJECT_DIR$/app/views/assignments.html" />
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/assignments.js" />
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/assignment5.js" />
+    <entry file="file://$PROJECT_DIR$/app/views/assignment6.html" />
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/weatherapp.js" />
+    <entry file="file://$PROJECT_DIR$/app/views/weatherapp.html" />
+    <entry file="file://$PROJECT_DIR$/.tmp/concat/scripts/vendor.js" />
+    <entry file="file://$PROJECT_DIR$/.tmp/templateCache.js" />
     <entry file="file://$PROJECT_DIR$/npm-debug.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-47898">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,42 +451,507 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/assignment6.js" />
+    <entry file="file://$PROJECT_DIR$/app/views/weathersecure.html" />
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/weathersecure.js" />
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="180" column="25" selection-start-line="180" selection-start-column="24" selection-end-line="180" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/assignment6.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/casoscontaminacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/HuellaHidricayCarbono/HuellaHidrica.html" />
+    <entry file="file://$USER_HOME$/Desktop/SerHumanoApp/HuellaHidricayCarbono/HuellaHidrica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/UsoRecursosNaturales.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="562" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/huellahidrica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="106" selection-start-line="3" selection-start-column="84" selection-end-line="3" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/UsoRecursosNaturales.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/usorecursos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="77" column="63" selection-start-line="77" selection-start-column="63" selection-end-line="77" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/estero-punta-banda-Ensenada.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/estero-punta-banda-Ensenada.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="133" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/esteropuntabanda.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Alonso/Acciones_Concretas_Ambiente.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/INFO ECONOMICA Y DEMOGRAFICA DE BAJA CALIFORNIA html.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="33" selection-start-line="0" selection-start-column="0" selection-end-line="3356" selection-end-column="0" />
+          <folding>
+            <marker date="1480761649000" expanded="true" signature="727:878" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="915:1584" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="939:1487" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="1515:1577" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="1876:3145" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="1894:3138" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="2496:2768" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="2781:3121" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="3181:36122" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="3248:36115" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="3555:3613" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="3678:3736" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="3801:3859" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="3924:3982" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="4047:4105" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="4170:4228" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="4293:4351" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="4416:4474" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="4548:4567" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="4641:4660" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="4734:4753" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="4827:4846" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="4920:4939" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="5013:5032" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="5106:5125" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="5199:5218" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="5292:5311" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="5377:5416" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="5482:5521" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="5587:5626" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="5692:5731" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="5797:5836" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="5902:5941" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="6007:6046" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="6112:6151" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="6217:6256" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="6330:6355" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="6429:6454" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="6528:6555" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="6629:6647" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="6721:6739" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="6813:6838" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="6904:6960" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="7034:7062" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="7136:7164" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="7238:7265" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="7339:7369" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="7443:7475" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="7549:7572" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="7646:7669" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="7743:7772" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="7846:7870" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="7944:7976" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="8050:8067" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="8141:8164" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="8238:8254" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="8328:8351" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="8425:8448" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="8522:8540" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="8614:8632" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="8706:8724" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="8798:8816" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="8890:8915" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="8989:9014" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="9088:9113" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="9187:9212" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="9286:9311" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="9385:9410" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="9484:9509" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="9583:9608" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="9759:9778" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="9852:9873" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="9938:9994" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="10068:10089" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="10163:10191" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="10265:10290" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="10364:10391" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="10465:10492" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="10566:10593" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="10667:10694" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="10768:10794" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="10948:10970" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="11044:11060" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="11134:11168" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="11242:11278" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="11352:11376" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="11450:11473" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="11547:11570" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="11644:11674" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="11748:11778" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="11852:11874" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="11948:11969" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="12043:12072" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="12304:12328" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="12402:12424" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="12498:12526" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="12600:12628" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="12702:12733" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="12807:12831" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="12905:12929" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="13003:13027" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="13101:13122" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="13196:13217" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="13291:13318" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="13392:13417" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="13491:13520" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="13594:13617" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="13691:13718" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="13792:13817" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="13891:13915" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="13989:14019" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="14093:14112" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="14186:14212" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="14286:14312" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="14386:14412" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="14486:14512" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="14586:14612" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="14686:14712" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="14786:14813" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="14887:14914" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="14988:15015" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="15089:15116" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="15190:15218" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="15292:15320" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="15394:15422" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="15496:15523" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="15597:15624" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="15698:15725" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="15799:15826" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="15900:15927" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="16001:16025" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="16099:16123" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="16197:16221" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="16295:16319" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="16393:16417" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="16491:16515" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="16589:16613" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="16687:16711" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="16785:16809" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="16883:16907" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="16981:17005" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="17079:17103" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="17177:17201" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="17275:17299" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="17373:17397" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="17471:17495" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="17569:17599" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="17673:17703" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="17777:17807" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="17881:17911" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="17985:18010" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="18084:18114" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="18188:18214" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="18288:18314" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="18388:18411" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="18485:18508" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="18582:18605" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="18679:18703" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="18844:18867" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="20610:20636" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="20776:20801" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="27020:27047" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="27110:27138" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="27201:27229" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="27292:27321" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="27469:27515" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="27581:27641" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="28624:28663" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="29028:29070" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="29118:29160" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="29208:29247" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="29612:29654" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="29702:29744" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="29792:29831" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="30196:30238" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="30286:30328" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="30376:30415" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="30780:30822" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="30870:30912" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="30960:30999" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="31364:31406" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="31454:31496" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="31544:31583" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="31948:31990" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="32038:32080" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="32640:32679" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="33044:33086" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="33134:33176" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="33224:33263" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="33628:33670" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="33718:33760" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="33808:33847" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="34212:34254" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="34302:34344" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="34392:34431" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="34796:34838" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="34886:34928" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="34976:35015" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="35380:35422" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="35470:35512" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="35560:35599" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="35964:36006" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="36054:36096" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="63668:64325" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="63718:64317" ph="{...}" />
+            <marker date="1480761649000" expanded="true" signature="64362:64417" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="64453:64542" ph="..." />
+            <marker date="1480761649000" expanded="true" signature="64483:64536" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/SH_png-05.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/caracteristicasgeograficas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/legislacion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/legislacion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/legam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/agenda21.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/efectoinvernadero.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cambioclimatico.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="30" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/etica_unesco.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="36" column="58" selection-start-line="36" selection-start-column="58" selection-end-line="36" selection-end-column="58" />
+          <caret line="66" column="18" selection-start-line="18" selection-start-column="10" selection-end-line="66" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/refes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="78" column="7" selection-start-line="34" selection-start-column="0" selection-end-line="78" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posturas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="75" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/etica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="169" column="7" selection-start-line="169" selection-start-column="7" selection-end-line="169" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/casoscontaminacion.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#2;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#3;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#3;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#section#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#2;n#div#0;n#section#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#section#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#3;n#div#0;n#section#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#div#0;n#section#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#2;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#section#2;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#section#3;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#3;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#2;n#div#0;n#section#3;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#0;n#section#3;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#2;n#div#0;n#section#3;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="91" column="32" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="45" />
+        <state relative-caret-position="60">
+          <caret line="4" column="95" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/weathersecure.html">
+    <entry file="file://$PROJECT_DIR$/app/views/accionesconcretas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/weathersecure.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        <state relative-caret-position="165">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding />
         </state>
       </provider>
